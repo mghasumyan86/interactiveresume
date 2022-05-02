@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interesting tools!</title>
+    <script src="a5.js"></script>
+</head>
+<body>
+    <h1>Some interesting tools!</h1> 
+    <h2>Question 1</h2>
+    <p>Enter how many hours you worked and we will tell you how much money you made.</p>
+    Enter your hours: <input type="text" id="boxQ1" onkeyup="hoursAm(event)">
+    <p id="amount">Your pay will appear here</p>
+
+    <h2>Question 2</h2>
+    <p>Enter two numbers and we will tell you if they are evenly divisible</p>
+    Enter your first number: <input type='text' id="boxQ2"> <br>
+    Enter your second number: <input type="text" id="boxTQ2">  <button id="compV" onclick="CompVal()">Compare Values</button>
+    <p id="output">Output will appear here</p>
+
+    <h2>Question 3</h2>
+    <p>Enter a year later than 1582 and we will tell you if it is leap year</p>
+    Enter your year: <input type="text" id="boxQ3"> <button id="checkY" onclick="yearCheck()">Check Year</button>
+    <p id="leapOut">Leap year output will appear here</p>
+
+</body>
+</html>
